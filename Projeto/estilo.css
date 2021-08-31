@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #ff1b7f;
+    font-family:'poppins', sans-serif;
+    
+}
+
+ul {
+    list-style: none;
+   
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family:'poppins', sans-serif;
+    font-style: italic;
+    font-size:12px;
+    font-weight: 700;
+
+}
+
+
+body{
+    background-image: url(./memphis_waves_01.jpg);
+    background-repeat: no-repeat;
+    background-position: center center fixed;
+    background-size: cover;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    padding:12px;
+}
+
+
+header ul {
+    display: flex;
+
+}
+
+header ul li {
+    padding: 10px;
+}
+
+header ul li a {
+    transition: 300ms;
+}
+
+header ul li a:hover{
+    color: #ff1b7f;
+    text-decoration: underline;
+}
+
+.container{
+    margin: 10%;
+    text-align: center;
+
+}
+
+.container .nome h1 {
+    font-size: 40px ;
+
+}
+
+.container .nome h5 {
+    font-size: 15px ;
+    
+}
+
+#arrow {
+    font-size: 25px;
+    cursor: pointer;
+    animation: blink 1s steps(5, start) infinite;
+        
+}
+
+@keyframes blink {
+    to{
+        visibility: hidden;
+    }
+}
+
+#animation {
+    transition: 300ms;
+}
+
+.active {
+    display: block !important;
+}
+
+.rotate {
+    transform: rotate(180deg);
+    transition: 300ms;
+}
+
+#about p {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 14px
+
+}
+
+.form {
+    width: 40%;
+    margin: 1% auto;
+
+}
+
+.form input {
+    width: 50%;
+    margin: 0 auto;
+    border: none;
+    /* border-radius: 5px 0px 0px 5px; deixa a borda arredondada */
+
+}
+
+.form button {
+    width: 15%;
+    margin: 0 auto;
+    background-color: #ff1b7f;
+    color: #2d0a64;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 300ms;
+    margin-left: -5px;
+    /* border-radius: 0px 5px 5px 0px; deixa a borda arredondada*/ 
+
+}
+
+.form button:hover{
+    background-color: orange;
+    color: #ff1b7f ;
+
+}
+
+@media only screen and (max-width: 768) {
+    .form{
+        width: 100%;
+    }
+}
+    
+
+@media only screen and (max-width: 480px) {
+    .container .nome h1 {
+        font-size: 25px;
+    }
+
+    .container .nome h5 {
+        font-size: 10px;
+    }
+    #about p {
+        max-width: 90;
+    }
+
+}
