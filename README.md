@@ -2,25 +2,24 @@
 
 ##### 											<h5 align=center>Atividade proposta no módulo de CSS do curso do imersão Fullstack da Gama Academy.</h5>
 
-------
 
-###### Sobre o projeto 💻
-
-------
-
-Exercício prático proposto e elaborado no módulo de CSS no curso de imersão Fullstack da Gama Academy. O exercício visa a criação de um portfólio digital com links de contatos para as plataformas do Github, LinkedIn, Email e Whatsapp.
-
-
-
-###### Demonstração :arrow_forward:
+#### Sobre o projeto 💻
 
 ------
 
-![](C:\Workspace\Gama academy\CSS\Projeto CSS\Projeto\Capturar.JPG)
+A atividade visa a criação de um portfólio digital com links para as plataformas do Github, LinkedIn, Email e Whatsapp.
 
 
 
-###### Funcionalidades :gear:
+#### Demonstração :arrow_forward:
+
+------
+
+![Capturar](https://user-images.githubusercontent.com/87131837/131594349-ad4707b6-263a-4571-afed-bde465a7657c.JPG)
+
+
+
+#### Funcionalidades :gear:
 
 ------
 
@@ -28,7 +27,7 @@ Exercício prático proposto e elaborado no módulo de CSS no curso de imersão 
 
 
 
-###### Tecnologias :hammer_and_wrench:
+#### Tecnologias :hammer_and_wrench:
 
 ------
 
@@ -38,7 +37,7 @@ Exercício prático proposto e elaborado no módulo de CSS no curso de imersão 
 
 
 
-######  Autor :pencil:
+####  Autor :pencil:
 
 ------
 
